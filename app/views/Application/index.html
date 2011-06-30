@@ -1,0 +1,9 @@
+#{extends 'main.html' /}
+#{set title:'Home' /}
+<script type="text/javascript" src="public/javascripts/shrink.js"></script>        
+
+<form action="/shrink" method=POST>
+	<div class="desc">Paste your long URL</div>
+	<input id="url" type=text name="url" size=128 />
+	<input type="submit" value="Submit"  />
+</form>
