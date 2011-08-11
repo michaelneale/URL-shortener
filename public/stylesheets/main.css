@@ -5,5 +5,16 @@
 
 .footer {
 	padding-top: 50px;
-	font: 10px "Droid Sans",arial,helvetica,sans-serif	
+	font: 10px "Droid Sans",arial,helvetica,sans-serif;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;   /* IE */    
+}
+
+
+#main {
+    margin-left: 120px;
+    margin-right: auto;
+    text-align: left;   /* IE */
+    width: 600px;         /* Fill this out. */
 }
