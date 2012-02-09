@@ -3,3 +3,4 @@ war
 tmp
 precompiled
 modules
+.DS_Store

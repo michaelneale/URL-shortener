@@ -2,5 +2,5 @@
 
 require:
     - play
-    - play -> scala 0.9
-    - play -> cloudbees 0.2.1
+    - play -> scala 0.9.1
+    - play -> cloudbees 0.2.2

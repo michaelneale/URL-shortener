@@ -20,9 +20,11 @@ object Application extends Controller {
     }
 
     def lengthen(slug: String) = {
+        println("here")
     	val url = Cache.get(slug) match {
     		case None => {
     			val url = fetch(slug)
+                println("url is " + url)
     			Cache.set(slug, url, "30mn")
     			url
     		}
