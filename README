@@ -1,3 +1,5 @@
 cloudbe.es URL shortener
 
+NOTE: this is really out of date and probably shouldn't work. An old demo. Thanks for looking!
+
 Uses play framework - and CouchDB backend. Nothing serious, more for a tutorial/demo.
